@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MR Dave | Personal Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: white;
+      line-height: 1.7;
+    }
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #273449;
+    }
+    header strong { color: #60a5fa; font-size: 23px; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      font-size: 14px;
+    }
+    .hero {
+      text-align: center;
+      padding: 90px 20px 75px;
+    }
+    .tag { color: #60a5fa; letter-spacing: 2px; }
+    h1 { font-size: clamp(42px, 9vw, 70px); line-height: 1.1; }
+    h1 span { color: #60a5fa; }
+    .hero p {
+      color: #cbd5e1;
+      max-width: 550px;
+      margin: 20px auto;
+    }
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 7px;
+      text-decoration: none;
+      margin: 8px;
+    }
+    section { padding: 45px 8%; }
+    h2 { font-size: 30px; }
+    .muted { color: #cbd5e1; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #151f32;
+      padding: 22px;
+      border: 1px solid #29364c;
+      border-radius: 12px;
+    }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #94a3b8;
+      border-top: 1px solid #273449;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>MR DAVE.</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="tag">WELCOME TO MY PORTFOLIO</div>
+      <h1>Hi, I'm <span>MR Dave.</span></h1>
+      <h2>A Future Web Developer</h2>
+      <p>
+        I'm a Computer Science student learning to build
+        modern, useful and beautiful websites.
+        This is my journey into technology.
+      </p>
+      <a class="btn" href="#about">Discover My Journey</a>
+      <a class="btn" href="#contact">Contact Me</a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p class="muted">
+        I'm passionate about technology, creativity and personal
+        growth. I'm developing my skills in web development,
+        starting with HTML, CSS and JavaScript. My goal is to
+        create websites that solve real problems.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>My Skills Journey</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>HTML</h3>
+          <p class="muted">Learning to structure web pages.</p>
+        </div>
+        <div class="card">
+          <h3>CSS</h3>
+          <p class="muted">Learning to create beautiful designs.</p>
+        </div>
+        <div class="card">
+          <h3>JavaScript</h3>
+          <p class="muted">Preparing to build interactive websites.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>My Projects</h2>
+      <div class="card">
+        <h3>MR Dave Portfolio</h3>
+        <p class="muted">
+          My first personal website, built as I learn web development.
+        </p>
+        <p>More projects coming soon.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p class="muted">
+        Interested in working together or discussing technology?
+        You can contact me by email.
+      </p>
+      <a class="btn"
+         href="mailto:YOUR_EMAIL@example.com">
+         Email Me
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 MR Dave. Built with passion and purpose.
+  </footer>
+</body>
+</html>
